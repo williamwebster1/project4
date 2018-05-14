@@ -1,0 +1,143 @@
+p{
+	color: blue;
+	font-weight: bold;
+	font-family: TimesNewRoman;
+	padding-top: 2vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+	
+}
+h1{
+	text-align: center;
+	padding-top: 4vh;
+}
+
+
+ul#Menu{
+text-align:center;
+margin: auto;
+background: #000000;
+box-shadow: 0px 0px 9px rgba(0,0,0,0.5);
+padding: 0;
+border-radius: 10px;
+list-style: none;
+position: fixed;
+display: inline-table;
+}
+
+ul#Menu li{
+text-align:center;
+float: left;
+color: white;
+padding: 0px;
+}
+
+ul#Menu li a{
+display: block;
+padding: 15px 20px;
+color: white;
+text-decoration: none;
+}
+
+ul#Menu li ul{
+list-style:none;
+display:none;
+color:white;
+}
+
+ul#Menu:after{
+content: "";
+clear: both;
+display: block;
+}
+
+ul#Menu li:hover{
+background: #4b545f;
+background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+
+ul#Menu li:hover a{
+color: #fff;
+}
+
+ul#Menu li:hover > ul{
+display:block;
+}
+
+ul#Menu ul{
+background: #5f6975; border-radius: 0px; padding: 0;
+position: absolute; top: 100%;
+}
+
+ul#Menu ul li{
+float: none;
+border-top: 1px solid #6b727c;
+border-bottom: 1px solid #575f6a;
+position: relative;
+}
+
+ul#Menu ul li a{
+padding: 5px 40px;
+color: #fff;
+}
+
+ul#Menu ul li a:hover{
+background: #4b545f;
+}
+
+#greenbaylogo {
+    background: url(images2/greenbaylogo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+#packersgreats {
+    background: url(images2/packersgreats.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.grid-4col{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+	border: 1px white solid;
+	text-align: center;
+}
+.grid-colspan4{
+	padding: 1em;
+	grid-columnn-start: 1;
+	grid-column-end: span 4;
+	position: relative;
+	top: 50px;
+	text-align:center;
+	font-weight: bold;
+	font-size:50px;
+	color: white;
+}
+.grid-colspan2-a{
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	text-align:center;
+	color: white;
+	font-size: 50px;
+}
+.grid-colspan2-b{
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	text-align:center;
+	color: white;
+	font-size: 50px;
+}
+.grid-colspan2-c{
+	padding: 1em;
+	grid-column-start: 3;
+	grid-column-end: span 2;
+	text-align:center;
+	text-align:center;
+	color: white;
+	font-size: 50px;
+}
