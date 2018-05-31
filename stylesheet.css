@@ -1,15 +1,6 @@
-p{
-	color: blue;
-	font-weight: bold;
-	font-family: TimesNewRoman;
-	padding-top: 2vh;
-	padding-left: 5vh;
-	padding-right: 5vh;
-	
-}
+
 h1{
 	text-align: center;
-	padding-top: 4vh;
 }
 
 
@@ -97,16 +88,64 @@ background: #4b545f;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
+#packersrivals {
+    background: url(images2/rivalriesbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
 
 .grid-4col{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 2vh;
-	border: 1px white solid;
+	grid-gap: 4vh;
+	border: 1px black solid;
 	text-align: center;
 }
+.grid-2col{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 4vh;
+	border: 1px black solid;
+	text-align: center;
+}
+.grid-left{
+	margin-top:35vh;
+	grid-row-start: 1;
+	grid-row-span: 2;
+	grid-column-start: 1;
+	grid-column-span: 1;
+	top: 50px;
+	text-align:center;
+	font-weight: bold;
+	font-size:50px;
+	color: white;
+}
+.grid-topright{
+	margin-top: 15vh;
+	grid-row-start: 1;
+	grid-row-span: 1;
+	grid-column-start: 2;
+	grid-column-span: 1;
+	top: 50px;
+	text-align:center;
+	font-weight: bold;
+	font-size:50px;
+	color: white;
+}
+.grid-bottomright{
+	grid-row-start: 2;
+	grid-row-span: 1;
+	grid-column-start: 2;
+	grid-column-span: 1;
+	top: 50px;
+	text-align:center;
+	font-weight: bold;
+	font-size:50px;
+	color: white;
+}
 .grid-colspan4{
-	padding: 1em;
+	padding: 1em
 	grid-columnn-start: 1;
 	grid-column-end: span 4;
 	position: relative;
