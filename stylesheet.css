@@ -1,6 +1,10 @@
 
+p{
+	font-size: 25px;
+}
 h1{
-	text-align: center;
+	color: purple;
+	font-size: 45px;
 }
 
 
@@ -93,7 +97,16 @@ background: #4b545f;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
-
+#packersmvp {
+    background: url(images2/rodgersmvp.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+#packersuperbowl {
+    background: url(images2/packerssuperbowl.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
 .grid-4col{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
